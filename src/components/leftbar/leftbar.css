@@ -1,0 +1,61 @@
+.leftBar{
+    flex: 2;
+    position: sticky;
+    top: 50px;
+    height: calc(100vh - 70px);
+
+}
+
+.leftBar .container{
+    padding: 20px;
+}
+.leftBar .container hr{
+    margin: 20px 0;
+    border: none;
+    height: 0.5px;
+    background-color: lightgray;
+}
+.leftBar .menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.leftBar .menu span{
+    font-size: 12px;
+}
+.leftBar .container .menu .user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.leftBar .container .menu .user img{
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.leftBar .container .menu  .item{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.leftBar .container .menu  .item span{
+    font-size: 14px;
+}
+
+.leftBar .container .menu  .item img{
+    width: 20px;
+    height: 20px;
+}
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+@media screen and (max-width : 480px) {
+    .leftBar{
+        display: none;
+    }
+}

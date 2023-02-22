@@ -1,0 +1,68 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+
+} 
+
+.theme-dark {
+  background: #222;
+  color: #ccc;
+  height: 4000px;
+}
+.theme-dark .home{
+  background-color: #222;
+  color: #fff;
+}
+.theme-dark .rightbar .container .item{
+  background-color: #111;
+  color: #fff;
+
+}
+.theme-dark .rightbar{
+  background-color: #222;
+  color: #fff;
+}
+.theme-dark .post{
+  background-color: #111;
+  color: #fff;
+}
+.theme-dark .navbar input{
+  background-color: #111;
+}
+.theme-dark .leftbar{
+  height: 100vh;
+  position: sticky;
+}
+
+.theme-dark .navbar .left span{
+  color: gray;
+}
+.theme-dark .rightbar .container .item .user .userInfo span{
+  color: #bbb;
+}
+.theme-dark .navbar input ::placeholder {
+  color: gray;
+}
+.theme-dark .navbar,
+.theme-dark .leftbar,
+.theme-dark .Rightbar .item
+{
+background-color: #111;
+color: grey;
+}
+.theme-dark .sun{
+  animation: ziad 5s ease;
+}
+@keyframes ziad {
+  from {
+    transform: rotate(0);
+  }
+  to{
+    transform: rotate(360deg);
+
+  }
+}
